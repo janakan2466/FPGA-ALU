@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\Lab5\simulation\qsim
+vlab5
+Z1 !s100 JcgUZ6fk93fB12zZ7jNbE0
+Z2 IHZld@nGGABDfYGVmkaPY[3
+Z3 VfcM^[KkRo<jclzAH`LC<63
+Z4 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\Lab5 (Mealy)\simulation\qsim
+Z5 w1605917970
+Z6 8lab5.vo
+Z7 Flab5.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|lab5.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1605917971.478000
+Z12 !s107 lab5.vo|
+!s101 -O0
+vlab5_vlg_check_tst
+!i10b 1
+Z13 !s100 EF7;;8iBUkQiG<F1JXW:X1
+Z14 I?4UhcJKXTQLH4_WTiE7?^1
+Z15 Vb2MZ]hS:Pj6HV]8nBan>;2
+R4
+R5
+Z16 8lab5.vt
+Z17 Flab5.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1605917971.826000
+Z19 !s107 lab5.vt|
+Z20 !s90 -work|work|lab5.vt|
+!s101 -O0
+R10
+vlab5_vlg_sample_tst
+!i10b 1
+Z21 !s100 5Tj]A1?8cjCfeo<^XHzO`2
+Z22 I2akIkQgkbal];`o1eSk7e1
+Z23 VVj9>jY;hYAQ5;HgP5bO=^1
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vlab5_vlg_vec_tst
+!i10b 1
+Z24 !s100 3M4H5l6?M^[YQc2n]^F_z3
+Z25 I?DK^4Q16alRUFUXSB85VI1
+Z26 Vl]k[MHb8HoPJSaBzTVYWg2
+R4
+R5
+R16
+R17
+Z27 L0 297
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

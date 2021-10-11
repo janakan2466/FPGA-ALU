@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\FinalCombination(MEALY)\simulation\qsim
+vMealy
+Z1 !s100 J_:ARnOKDAV8BOX=I9dnV1
+Z2 I?nnF6MkY4XQjeGBXfmaiD2
+Z3 V3WY2iYj^NeRRiOLPECNNz3
+Z4 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\FinalCombination(MEALY)\simulation\qsim
+Z5 w1605919873
+Z6 8Mealy.vo
+Z7 FMealy.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Mealy.vo|
+Z10 o-work work -O0
+Z11 n@mealy
+!i10b 1
+!s85 0
+Z12 !s108 1605919874.161000
+Z13 !s107 Mealy.vo|
+!s101 -O0
+vMealy_vlg_check_tst
+!i10b 1
+!s100 1>799ALmN4CGQ9SMfiGDV0
+Id2ZXc0D:Ana7b;IHLN<HU3
+Z14 VAg<bV:afZbQP:T<^3jmYm2
+R4
+Z15 w1605919872
+Z16 8Mealy.vt
+Z17 FMealy.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1605919874.512000
+Z19 !s107 Mealy.vt|
+Z20 !s90 -work|work|Mealy.vt|
+!s101 -O0
+R10
+Z21 n@mealy_vlg_check_tst
+vMealy_vlg_sample_tst
+!i10b 1
+Z22 !s100 DCjihzIQaT<lFzTKBO<4A2
+Z23 InWjSJ6FHJJ^LLHjQUBQ<_0
+Z24 VV7:OB5CUg?a:z@7541NOh0
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 n@mealy_vlg_sample_tst
+vMealy_vlg_vec_tst
+!i10b 1
+!s100 ZFRd9R1L:HSDlLf^gc^Le2
+IKR69[32ni]lEfCA^O@fzl1
+Z26 V@QL;XOmZFfOifdH_>o_1G2
+R4
+R15
+R16
+R17
+Z27 L0 700
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z28 n@mealy_vlg_vec_tst

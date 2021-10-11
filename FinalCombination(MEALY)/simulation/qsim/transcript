@@ -1,0 +1,96 @@
+# do Mealy.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mealy
+# 
+# Top level modules:
+# 	Mealy
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mealy_vlg_sample_tst
+# -- Compiling module Mealy_vlg_check_tst
+# -- Compiling module Mealy_vlg_vec_tst
+# 
+# Top level modules:
+# 	Mealy_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Mealy_vlg_vec_tst 
+# Loading work.Mealy_vlg_vec_tst
+# Loading work.Mealy
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading work.Mealy_vlg_sample_tst
+# Loading work.Mealy_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port ledss[0] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[1] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[2] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[3] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[4] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[5] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port ledss[6] :: @time = 230000.000 ps
+#      Expected value = 1111111
+#      Real value = 0000000
+# ERROR! Vector Mismatch for output port leds[0] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port leds[1] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port leds[2] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port leds[3] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port leds[5] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port leds[6] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111011
+# ERROR! Vector Mismatch for output port State[0] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1101101
+# ERROR! Vector Mismatch for output port State[1] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1101101
+# ERROR! Vector Mismatch for output port State[3] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1101101
+# ERROR! Vector Mismatch for output port State[4] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1101101
+# ERROR! Vector Mismatch for output port State[6] :: @time = 250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1101101
+# ERROR! Vector Mismatch for output port leds[4] :: @time = 260000.000 ps
+#      Expected value = 0000000
+#      Real value = 1011111
+# ERROR! Vector Mismatch for output port State[2] :: @time = 260000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110000
+# ERROR! Vector Mismatch for output port State[5] :: @time = 280000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111111
+#          21 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Mealy.vt(696)
+#    Time: 360 ns  Iteration: 0  Instance: /Mealy_vlg_vec_tst/tb_out

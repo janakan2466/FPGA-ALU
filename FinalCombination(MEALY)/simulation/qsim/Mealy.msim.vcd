@@ -1,0 +1,764 @@
+$comment
+	File created using the following command:
+		vcd file Mealy.msim.vcd -direction
+$end
+$date
+	Fri Nov 20 19:51:15 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Mealy_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " data_in $end
+$var reg 1 # reset $end
+$var wire 1 $ leds [0] $end
+$var wire 1 % leds [1] $end
+$var wire 1 & leds [2] $end
+$var wire 1 ' leds [3] $end
+$var wire 1 ( leds [4] $end
+$var wire 1 ) leds [5] $end
+$var wire 1 * leds [6] $end
+$var wire 1 + ledss [0] $end
+$var wire 1 , ledss [1] $end
+$var wire 1 - ledss [2] $end
+$var wire 1 . ledss [3] $end
+$var wire 1 / ledss [4] $end
+$var wire 1 0 ledss [5] $end
+$var wire 1 1 ledss [6] $end
+$var wire 1 2 State [0] $end
+$var wire 1 3 State [1] $end
+$var wire 1 4 State [2] $end
+$var wire 1 5 State [3] $end
+$var wire 1 6 State [4] $end
+$var wire 1 7 State [5] $end
+$var wire 1 8 State [6] $end
+$var wire 1 9 State_neg [0] $end
+$var wire 1 : State_neg [1] $end
+$var wire 1 ; State_neg [2] $end
+$var wire 1 < State_neg [3] $end
+$var wire 1 = State_neg [4] $end
+$var wire 1 > State_neg [5] $end
+$var wire 1 ? State_neg [6] $end
+$var wire 1 @ sampler $end
+$scope module i1 $end
+$var wire 1 A gnd $end
+$var wire 1 B vcc $end
+$var wire 1 C unknown $end
+$var tri1 1 D devclrn $end
+$var tri1 1 E devpor $end
+$var tri1 1 F devoe $end
+$var wire 1 G inst|Selector11~2_combout $end
+$var wire 1 H clk~combout $end
+$var wire 1 I clk~clkctrl_outclk $end
+$var wire 1 J reset~combout $end
+$var wire 1 K reset~clkctrl_outclk $end
+$var wire 1 L data_in~combout $end
+$var wire 1 M inst|yfsm.s5~regout $end
+$var wire 1 N inst|yfsm.s0~0_combout $end
+$var wire 1 O inst|yfsm.s0~regout $end
+$var wire 1 P inst|yfsm.s4~0_combout $end
+$var wire 1 Q inst|yfsm.s4~regout $end
+$var wire 1 R inst|yfsm.s3~regout $end
+$var wire 1 S inst|yfsm.s2~regout $end
+$var wire 1 T inst|yfsm.s1~regout $end
+$var wire 1 U inst|Selector12~0_combout $end
+$var wire 1 V inst|yfsm.s8~regout $end
+$var wire 1 W inst|yfsm.s7~regout $end
+$var wire 1 X inst|yfsm.s6~regout $end
+$var wire 1 Y inst|Selector9~0_combout $end
+$var wire 1 Z inst|Selector9~1_combout $end
+$var wire 1 [ inst|Selector14~0_combout $end
+$var wire 1 \ inst|Selector11~0_combout $end
+$var wire 1 ] inst|Selector11~1_combout $end
+$var wire 1 ^ inst|Selector10~0_combout $end
+$var wire 1 _ inst|Selector10~1_combout $end
+$var wire 1 ` inst|Selector10~2_combout $end
+$var wire 1 a inst|Selector8~0_combout $end
+$var wire 1 b inst5|Mux0~0_combout $end
+$var wire 1 c inst5|Mux1~0_combout $end
+$var wire 1 d inst5|Mux2~0_combout $end
+$var wire 1 e inst5|Mux3~0_combout $end
+$var wire 1 f inst5|Mux4~0_combout $end
+$var wire 1 g inst|Selector14~1_combout $end
+$var wire 1 h inst|Selector14~2_combout $end
+$var wire 1 i inst|Selector13~0_combout $end
+$var wire 1 j inst|Selector13~1_combout $end
+$var wire 1 k inst|Selector13~2_combout $end
+$var wire 1 l inst|Selector15~0_combout $end
+$var wire 1 m inst|Selector15~1_combout $end
+$var wire 1 n inst6|Mux0~0_combout $end
+$var wire 1 o inst6|Mux1~0_combout $end
+$var wire 1 p inst6|Mux2~0_combout $end
+$var wire 1 q inst6|Mux3~0_combout $end
+$var wire 1 r inst6|Mux4~0_combout $end
+$var wire 1 s inst6|Mux5~0_combout $end
+$var wire 1 t inst6|Mux6~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0*
+1)
+1(
+1'
+1&
+1%
+1$
+01
+00
+0/
+0.
+0-
+0,
+0+
+18
+17
+06
+05
+14
+13
+02
+0?
+0>
+0=
+0<
+0;
+0:
+09
+x@
+0A
+1B
+xC
+1D
+1E
+1F
+1G
+0H
+0I
+0J
+0K
+1L
+0M
+1N
+0O
+1P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+1[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+1f
+1g
+0h
+0i
+1j
+1k
+0l
+0m
+1n
+0o
+0p
+1q
+1r
+0s
+1t
+$end
+#10000
+1!
+1#
+1H
+1J
+1K
+1I
+0@
+#20000
+0!
+0#
+0H
+0J
+0K
+0I
+1@
+#30000
+1!
+1H
+1I
+0@
+1Q
+1O
+0g
+0j
+0P
+1m
+1h
+0k
+1s
+0q
+0n
+07
+15
+12
+#40000
+0!
+0H
+0I
+1@
+#50000
+1!
+1H
+1I
+0@
+1R
+0Q
+1l
+1a
+0[
+1g
+0m
+0f
+1]
+0r
+1p
+1d
+1*
+16
+04
+0(
+#60000
+0!
+0H
+0I
+1@
+#70000
+1!
+1H
+1I
+0@
+1S
+0R
+1`
+1^
+1Y
+0G
+0l
+0a
+1[
+1_
+1Z
+1m
+0h
+0d
+1c
+1b
+0]
+0c
+0t
+1r
+1q
+0p
+1n
+1(
+0&
+0%
+08
+1&
+06
+05
+14
+02
+#80000
+0!
+0H
+0I
+1@
+#90000
+1!
+1H
+1I
+0@
+1T
+0S
+1l
+0^
+1U
+0`
+0Y
+1G
+0m
+0_
+1t
+0s
+0r
+0q
+1p
+1o
+0n
+0Z
+0p
+0o
+1f
+0b
+18
+17
+16
+15
+04
+03
+12
+14
+13
+0*
+1%
+#100000
+0!
+0H
+0I
+1@
+#110000
+1!
+1H
+1I
+0@
+1V
+0T
+1j
+0g
+1a
+0U
+0l
+1k
+1m
+1h
+0f
+0t
+1s
+1r
+1q
+08
+1*
+07
+06
+05
+#120000
+0!
+0H
+0I
+1@
+#130000
+1!
+1H
+1I
+0@
+1W
+0V
+1l
+1`
+1^
+0[
+1g
+0a
+0m
+1_
+1]
+1f
+1t
+0s
+0r
+0q
+1o
+0f
+1e
+1d
+0*
+18
+17
+16
+15
+03
+1*
+0)
+0(
+#140000
+0!
+0H
+0I
+1@
+#150000
+1!
+1H
+1I
+0@
+1X
+0W
+1i
+1Y
+0G
+0l
+0j
+0`
+0^
+1[
+1Z
+1m
+0h
+0]
+0e
+0d
+1b
+1r
+1)
+1(
+0%
+06
+#160000
+0!
+0H
+0I
+1@
+#170000
+1!
+1H
+1I
+0@
+0X
+1M
+0i
+0_
+0Y
+1G
+1l
+1]
+0N
+0k
+1d
+0m
+0t
+0r
+0o
+0(
+08
+16
+13
+#180000
+0!
+0H
+0I
+1@
+#190000
+1!
+1H
+1I
+0@
+0O
+0M
+1j
+1P
+0l
+0]
+0Z
+1N
+1k
+1f
+0d
+0b
+1t
+1r
+1q
+1n
+0*
+1(
+1%
+18
+06
+05
+02
+#200000
+0!
+0H
+0I
+1@
+#210000
+1!
+1H
+1I
+0@
+1Q
+1O
+0g
+0j
+0P
+1m
+1h
+0k
+1s
+0q
+0n
+07
+15
+12
+#220000
+0!
+0H
+0I
+1@
+#230000
+1!
+1H
+1I
+0@
+1R
+0Q
+1l
+1a
+0[
+1g
+0m
+0f
+1]
+0r
+1p
+1d
+1*
+16
+04
+0(
+#240000
+0!
+0H
+0I
+1@
+#250000
+1!
+1H
+1I
+0@
+1S
+0R
+1`
+1^
+1Y
+0G
+0l
+0a
+1[
+1_
+1Z
+1m
+0h
+0d
+1c
+1b
+0]
+0c
+0t
+1r
+1q
+0p
+1n
+1(
+0&
+0%
+08
+1&
+06
+05
+14
+02
+#260000
+0!
+0H
+0I
+1@
+#270000
+1!
+1H
+1I
+0@
+1T
+0S
+1l
+0^
+1U
+0`
+0Y
+1G
+0m
+0_
+1t
+0s
+0r
+0q
+1p
+1o
+0n
+0Z
+0p
+0o
+1f
+0b
+18
+17
+16
+15
+04
+03
+12
+14
+13
+0*
+1%
+#280000
+0!
+0H
+0I
+1@
+#290000
+1!
+1H
+1I
+0@
+1V
+0T
+1j
+0g
+1a
+0U
+0l
+1k
+1m
+1h
+0f
+0t
+1s
+1r
+1q
+08
+1*
+07
+06
+05
+#300000
+0!
+0H
+0I
+1@
+#310000
+1!
+1H
+1I
+0@
+1W
+0V
+1l
+1`
+1^
+0[
+1g
+0a
+0m
+1_
+1]
+1f
+1t
+0s
+0r
+0q
+1o
+0f
+1e
+1d
+0*
+18
+17
+16
+15
+03
+1*
+0)
+0(
+#320000
+0!
+0H
+0I
+1@
+#330000
+1!
+1H
+1I
+0@
+1X
+0W
+1i
+1Y
+0G
+0l
+0j
+0`
+0^
+1[
+1Z
+1m
+0h
+0]
+0e
+0d
+1b
+1r
+1)
+1(
+0%
+06
+#340000
+0!
+0H
+0I
+1@
+#350000
+1!
+1H
+1I
+0@
+0X
+1M
+0i
+0_
+0Y
+1G
+1l
+1]
+0N
+0k
+1d
+0m
+0t
+0r
+0o
+0(
+08
+16
+13
+#360000

@@ -1,0 +1,511 @@
+$comment
+	File created using the following command:
+		vcd file MooreFSM.msim.vcd -direction
+$end
+$date
+	Fri Nov 20 19:19:12 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Moore_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " data_in $end
+$var reg 1 # reset $end
+$var wire 1 $ current_state [3] $end
+$var wire 1 % current_state [2] $end
+$var wire 1 & current_state [1] $end
+$var wire 1 ' current_state [0] $end
+$var wire 1 ( student_id [3] $end
+$var wire 1 ) student_id [2] $end
+$var wire 1 * student_id [1] $end
+$var wire 1 + student_id [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 clk~combout $end
+$var wire 1 4 clk~clkctrl_outclk $end
+$var wire 1 5 yfsm.s1~feeder_combout $end
+$var wire 1 6 reset~combout $end
+$var wire 1 7 reset~clkctrl_outclk $end
+$var wire 1 8 data_in~combout $end
+$var wire 1 9 yfsm.s1~regout $end
+$var wire 1 : yfsm.s8~regout $end
+$var wire 1 ; yfsm.s7~feeder_combout $end
+$var wire 1 < yfsm.s7~regout $end
+$var wire 1 = yfsm.s6~feeder_combout $end
+$var wire 1 > yfsm.s6~regout $end
+$var wire 1 ? yfsm.s5~feeder_combout $end
+$var wire 1 @ yfsm.s5~regout $end
+$var wire 1 A yfsm.s0~0_combout $end
+$var wire 1 B yfsm.s0~regout $end
+$var wire 1 C yfsm.s4~0_combout $end
+$var wire 1 D yfsm.s4~regout $end
+$var wire 1 E yfsm.s3~feeder_combout $end
+$var wire 1 F yfsm.s3~regout $end
+$var wire 1 G yfsm.s2~feeder_combout $end
+$var wire 1 H yfsm.s2~regout $end
+$var wire 1 I WideOr14~combout $end
+$var wire 1 J WideOr13~combout $end
+$var wire 1 K WideOr12~combout $end
+$var wire 1 L student_id~0_combout $end
+$var wire 1 M WideOr11~combout $end
+$var wire 1 N WideOr10~combout $end
+$var wire 1 O WideOr9~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0'
+0&
+0%
+0$
+1+
+0*
+1)
+0(
+x,
+0-
+1.
+x/
+10
+11
+12
+03
+04
+05
+06
+07
+18
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+1A
+0B
+1C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+1K
+0L
+0M
+0N
+0O
+$end
+#10000
+1!
+1#
+13
+16
+17
+14
+0,
+#20000
+0!
+0#
+03
+06
+07
+04
+1,
+#30000
+1!
+13
+14
+0,
+1D
+1B
+1O
+1E
+0K
+0I
+0C
+1%
+0)
+0+
+#40000
+0!
+03
+04
+1,
+#50000
+1!
+13
+14
+0,
+1F
+0D
+1N
+1M
+1G
+0O
+0E
+1&
+1'
+0%
+#60000
+0!
+03
+04
+1,
+#70000
+1!
+13
+14
+0,
+1H
+0F
+1L
+1I
+15
+0M
+0G
+1(
+1+
+0'
+#80000
+0!
+03
+04
+1,
+#90000
+1!
+13
+14
+0,
+0H
+19
+0N
+0L
+0I
+05
+1M
+1K
+1J
+0&
+0(
+0+
+1'
+1)
+1*
+#100000
+0!
+03
+04
+1,
+#110000
+1!
+13
+14
+0,
+1:
+09
+1;
+0M
+0K
+0J
+1$
+0'
+0)
+0*
+#120000
+0!
+03
+04
+1,
+#130000
+1!
+13
+14
+0,
+1<
+0:
+1O
+1N
+1M
+1L
+1=
+0;
+0$
+1%
+1&
+1'
+1(
+#140000
+0!
+03
+04
+1,
+#150000
+1!
+13
+14
+0,
+1>
+0<
+1J
+1I
+1?
+0M
+0L
+0=
+1*
+1+
+0'
+0(
+#160000
+0!
+03
+04
+1,
+#170000
+1!
+13
+14
+0,
+1@
+0>
+1M
+1K
+0A
+0N
+0I
+0?
+1'
+1)
+0&
+0+
+#180000
+0!
+03
+04
+1,
+#190000
+1!
+13
+14
+0,
+0B
+0@
+1I
+1C
+0O
+0M
+0J
+1A
+1+
+0%
+0'
+0*
+#200000
+0!
+03
+04
+1,
+#210000
+1!
+13
+14
+0,
+1D
+1B
+1O
+1E
+0K
+0I
+0C
+1%
+0)
+0+
+#220000
+0!
+03
+04
+1,
+#230000
+1!
+13
+14
+0,
+1F
+0D
+1N
+1M
+1G
+0O
+0E
+1&
+1'
+0%
+#239000
+0!
+03
+04
+1,
+#250000
+1!
+13
+14
+0,
+1H
+0F
+1L
+1I
+15
+0M
+0G
+1(
+1+
+0'
+#260000
+0!
+03
+04
+1,
+#270000
+1!
+13
+14
+0,
+0H
+19
+0N
+0L
+0I
+05
+1M
+1K
+1J
+0&
+0(
+0+
+1'
+1)
+1*
+#280000
+0!
+03
+04
+1,
+#290000
+1!
+13
+14
+0,
+1:
+09
+1;
+0M
+0K
+0J
+1$
+0'
+0)
+0*
+#300000
+0!
+03
+04
+1,
+#310000
+1!
+13
+14
+0,
+1<
+0:
+1O
+1N
+1M
+1L
+1=
+0;
+0$
+1%
+1&
+1'
+1(
+#320000
+0!
+03
+04
+1,
+#330000
+1!
+13
+14
+0,
+1>
+0<
+1J
+1I
+1?
+0M
+0L
+0=
+1*
+1+
+0'
+0(
+#340000
+0"
+0!
+08
+03
+04
+1,
+#350000
+1#
+1!
+16
+13
+14
+17
+0,
+0B
+0>
+1K
+1C
+0O
+0N
+0J
+0?
+1)
+0%
+0&
+0*
+#359000
+0#
+0!
+06
+03
+04
+07
+1,
+#370000
+1!
+13
+14
+0,
+#380000

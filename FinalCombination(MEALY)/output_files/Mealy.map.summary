@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 20 19:49:59 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Mealy
+Top-level Entity Name : Mealy
+Family : Cyclone II
+Total logic elements : 38
+    Total combinational functions : 32
+    Dedicated logic registers : 9
+Total registers : 9
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

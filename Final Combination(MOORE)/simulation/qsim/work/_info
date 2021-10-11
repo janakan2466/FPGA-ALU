@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\Final Combination(MOORE)\simulation\qsim
+vMooreblock
+Z1 !s100 [SZzIRVa@@OmghO?BiCXz1
+Z2 IJ`DLTLJ2Z^^k^LGA]21J82
+Z3 V9V<F<0>3kZXj]<]`@oDJD0
+Z4 dC:\Users\Admin\Desktop\COE 328 Labs\COE 328 Lab (5)\Final Combination(MOORE)\simulation\qsim
+Z5 w1605919275
+Z6 8Moore.vo
+Z7 FMoore.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Moore.vo|
+Z10 o-work work -O0
+Z11 n@mooreblock
+!i10b 1
+!s85 0
+Z12 !s108 1605919275.972000
+Z13 !s107 Moore.vo|
+!s101 -O0
+vMooreblock_vlg_check_tst
+!i10b 1
+Z14 !s100 DKo7mHcNhYS5[jAn6:BUI2
+Z15 I[A8e]NOeDb<3k=GRchI6F1
+Z16 V]HNVc]VmVd[;zSk:hzBV10
+R4
+Z17 w1605919274
+Z18 8Moore.vt
+Z19 FMoore.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1605919276.285000
+Z21 !s107 Moore.vt|
+Z22 !s90 -work|work|Moore.vt|
+!s101 -O0
+R10
+Z23 n@mooreblock_vlg_check_tst
+vMooreblock_vlg_sample_tst
+!i10b 1
+Z24 !s100 [SF>1gAij;@SNN@?ogY[b2
+Z25 IXGc^h0B9VMVQVQ[N;T=KG2
+Z26 VUCXFK6NA9j:4d6HLNWf]b1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@mooreblock_vlg_sample_tst
+vMooreblock_vlg_vec_tst
+!i10b 1
+!s100 ]RS`dW]1;3z:h9C?eG3az3
+I3?B7;H3bKO_V6;`fQn>_U3
+Z28 Vz=2KG[H0h>971Ki^20Lf81
+R4
+R17
+R18
+R19
+Z29 L0 693
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@mooreblock_vlg_vec_tst

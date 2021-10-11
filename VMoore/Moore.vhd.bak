@@ -1,0 +1,159 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity Moore is
+	port
+	(
+		clk   :in  std_logic;
+		data_in :in std_logic;
+		reset :in std_logic;
+		student_id :out std_logic_vector(3 downto 0);
+		current_state :out std_logic_vector(3 downto 0));
+end entity;
+architecture fsm of Moore is 
+	type state_type is (s0, s1, s2, s3, s4, s5, s6, s7, s8);
+	signal yfsm : state_type;
+begin	
+	process (clk, reset)
+	begin 
+		if reset = '1' then
+			yfsm <= s0;
+		elsif (clk 'EVENT AND clk = '1') then	
+		case yfsm is 
+			when s0=> 
+				IF data_in = '1' THEN
+				current_state <= "0100";
+				ELSE
+				current_state <= "0000";
+				END IF;
+				
+			when s1=> 
+				IF data_in = '1' THEN
+				current_state <= "1000";
+				ELSE
+				current_state <= "0001";
+				END IF;
+				
+			when s2=> 
+				IF data_in = '1' THEN
+				current_state <= "0001";
+				ELSE
+				current_state <= "0010";
+				END IF;
+				
+			when s3=> 
+				IF data_in = '1' THEN
+				current_state <= "0010";
+				ELSE
+				current_state <= "0011";
+				END IF;
+				
+			when s4=> 
+				IF data_in = '1' THEN
+				current_state <= "0011";
+				ELSE
+				current_state <= "0100";
+				END IF;
+				
+			when s5=> 
+				IF data_in = '1' THEN
+				current_state <= "0000";
+				ELSE
+				current_state <= "0101";
+				END IF;
+				
+			when s6=> 
+				IF data_in = '1' THEN
+				current_state <= "0101";
+				ELSE
+				current_state <= "0110";
+				END IF;
+				
+			when s7=> 
+				IF data_in = '1' THEN
+				current_state <= "0110";
+				ELSE
+				current_state <= "0111";
+				END IF;
+				
+			when s8=> 
+				IF data_in = '1' THEN
+				current_state <= "0111";
+				ELSE
+				current_state <= "1000";
+				END IF;
+				
+		end case;
+	end if;
+end process;
+
+--Since this is a Mealy Machine, the output depends on the primary input (w) or (data_in) to present a specific output
+--The process statement determines which variables what the outputs will be sensistive to, in this case the state and primary input
+process (yfsm, data_in)
+begin 
+	case yfsm is
+		when s0=> 
+			IF data_in = '1' THEN
+			student_id <= "0000";
+			ELSE 
+			student_id <= "0101";
+			END IF;
+			
+		when s1=>
+			IF data_in = '1' THEN
+			student_id <= "0000";
+			ELSE 
+			student_id <= "0110";
+			END IF;
+			
+		when s2=>
+			IF data_in = '1' THEN
+			student_id <= "0110";
+			ELSE 
+			student_id <= "1001";
+			END IF;
+			
+		when s3=>
+			IF data_in = '1' THEN
+			student_id <= "1001";
+			ELSE 
+			student_id <= "0000";
+			END IF;
+			
+		when s4=>
+			IF data_in = '1' THEN
+			student_id <= "0000";
+			ELSE 
+			student_id <= "0000";
+			END IF;
+			
+		when s5=>
+			IF data_in = '1' THEN
+			student_id <= "0101";
+			ELSE 
+			student_id <= "0110";
+			END IF;
+			
+		when s6=>
+			IF data_in = '1' THEN
+			student_id <= "0110";
+			ELSE 
+			student_id <= "0011";
+			END IF;
+			
+		when s7=>
+			IF data_in = '1' THEN
+			student_id <= "0011";
+			ELSE 
+			student_id <= "1000";
+			END IF;
+			
+		when s8=>
+			IF data_in = '1' THEN
+			student_id <= "1000";
+			ELSE 
+			student_id <= "0000";
+			END IF;
+			
+	end case;
+end process;
+end architecture;

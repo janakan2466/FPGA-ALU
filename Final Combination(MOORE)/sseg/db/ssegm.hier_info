@@ -1,0 +1,38 @@
+|ssegSm
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+neg => ledss[6].DATAIN
+leds[6] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= <VCC>
+leds[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+leds[0] <= <VCC>
+ledss[6] <= neg.DB_MAX_OUTPUT_PORT_TYPE
+ledss[5] <= <GND>
+ledss[4] <= <GND>
+ledss[3] <= <GND>
+ledss[2] <= <GND>
+ledss[1] <= <GND>
+ledss[0] <= <GND>
+
+

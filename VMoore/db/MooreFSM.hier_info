@@ -1,0 +1,31 @@
+|Moore
+clk => yfsm~1.DATAIN
+data_in => Selector0.IN3
+data_in => Selector1.IN3
+data_in => Selector2.IN3
+data_in => Selector3.IN3
+data_in => Selector4.IN3
+data_in => Selector5.IN3
+data_in => Selector6.IN3
+data_in => Selector7.IN3
+data_in => Selector8.IN3
+data_in => Selector0.IN1
+data_in => Selector1.IN1
+data_in => Selector2.IN1
+data_in => Selector3.IN1
+data_in => Selector4.IN1
+data_in => Selector5.IN1
+data_in => Selector6.IN1
+data_in => Selector7.IN1
+data_in => Selector8.IN1
+reset => yfsm~3.DATAIN
+student_id[0] <= WideOr14.DB_MAX_OUTPUT_PORT_TYPE
+student_id[1] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+student_id[2] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+student_id[3] <= student_id.DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+current_state[2] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+current_state[3] <= current_state[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
